@@ -16,7 +16,7 @@ const Layout = () => {
             <source src="/fhd.mp4" type="video/mp4" />
         </video>
         <video autoPlay loop playsInline muted className='w-full object-cover absolute z-0 h-screen flex md:hidden'>
-        <source src="/mobile.mp4" type="video/mp4" />
+        <source src="/fhd.mp4" type="video/mp4" />
         </video>
         <Footer />
     </div>
