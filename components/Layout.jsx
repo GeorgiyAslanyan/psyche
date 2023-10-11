@@ -13,7 +13,7 @@ const Layout = () => {
             <p className="text-center 2xl:text-2xl mt-4 md:mt-10 text-white">Psyche is supposed to have <br className='hidden md:block'/> limited depoist of Etherium <br className='hidden md:block'/>in addition to metal</p>
         </div>
         <video autoPlay loop muted className='w-full object-cover absolute z-0 h-screen hidden md:flex' src="/fhd.mp4"></video>
-        <video autoPlay loop muted className='w-full object-cover absolute z-0 h-screen flex md:hidden' src="/mobile.webm"></video>
+        <video autoPlay loop muted className='w-full object-cover absolute z-0 h-screen flex md:hidden' src="/mobile.mp4"></video>
         <Footer />
     </div>
   )
