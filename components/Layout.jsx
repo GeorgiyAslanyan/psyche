@@ -5,7 +5,7 @@ import Timer from './Timer'
 
 const Layout = () => {
   return (
-    <div className='w-full h-screen'>
+    <div className='w-full h-screen bg-black text-white'>
         <Navbar />
         <div className='absolute z-10 top-[10%] md:top-[15%] left-3 pr-3 sm:pr-0 sm:left-8'>
             <p className="text-xl md:text-3xl text-center pb-1">Countdown to launch</p>
@@ -16,7 +16,8 @@ const Layout = () => {
             <source src="/fhd.mp4" type="video/mp4" />
         </video>
         <video autoPlay loop playsInline muted className='w-full object-cover absolute z-0 h-screen flex md:hidden'>
-        <source src="/fhd.mp4" type="video/mp4" />
+        <source src="/mobile.mp4" type="video/mp4" />
+        <source src="/mobile.webm" type="video/webm" />
         </video>
         <Footer />
     </div>
