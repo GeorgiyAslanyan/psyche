@@ -6,35 +6,35 @@ const Footer = () => {
       <div className="grid grid-cols-1 md:grid-cols-10 gap-y-4 md:gap-y-0 gap-x-4 w-4/5 text-xs text-[#787878]">
         <div className="col-span-1 md:col-span-7 border-t border-[#787878] gap-3 md:gap-20 flex ">
           <a
-            className="group relative pt-2"
+            className="group relative pt-2 text-[#787878] hover:text-white"
             href="http://"
             target="_blank"
             rel="noopener noreferrer">
-            <div className="absolute transition-all ease-linear duration-75 group-hover:text-white group-hover:h-3 w-[6px] h-[6px] top-0 left-0 border-l border-[#787878]"></div>
+            <div className="absolute transition-all ease-linear duration-75  group-hover:h-3 w-[6px] h-[6px] top-0 left-0 border-l border-[#787878]"></div>
             ABOUT 🡥
           </a>
           <a
-            className="group relative pt-2"
+            className="group relative pt-2 text-[#787878] hover:text-white"
             href="http://"
             target="_blank"
             rel="noopener noreferrer">
-            <div className="absolute transition-all ease-linear duration-75 group-hover:text-white group-hover:h-3 w-[6px] h-[6px] top-0 left-0 border-l border-[#787878]"></div>
+            <div className="absolute transition-all ease-linear duration-75  group-hover:h-3 w-[6px] h-[6px] top-0 left-0 border-l border-[#787878]"></div>
             ABOUT 🡥
           </a>
           <a
-            className="group relative pt-2"
+            className="group relative pt-2 text-[#787878] hover:text-white"
             href="http://"
             target="_blank"
             rel="noopener noreferrer">
-            <div className="absolute transition-all ease-linear duration-75 group-hover:text-white group-hover:h-3 w-[6px] h-[6px] top-0 left-0 border-l border-[#787878]"></div>
+            <div className="absolute transition-all ease-linear duration-75  group-hover:h-3 w-[6px] h-[6px] top-0 left-0 border-l border-[#787878]"></div>
             ABOUT 🡥
           </a>
           <a
-            className="group relative pt-2"
+            className="group relative pt-2 text-[#787878] hover:text-white"
             href="http://"
             target="_blank"
             rel="noopener noreferrer">
-            <div className="absolute transition-all ease-linear duration-75 group-hover:text-white group-hover:h-3 w-[6px] h-[6px] top-0 left-0 border-l border-[#787878]"></div>
+            <div className="absolute transition-all ease-linear duration-75  group-hover:h-3 w-[6px] h-[6px] top-0 left-0 border-l border-[#787878]"></div>
             ABOUT 🡥
           </a>
         </div>
