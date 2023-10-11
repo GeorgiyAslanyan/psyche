@@ -11,7 +11,7 @@ const Navbar = () => {
         <div className="min-w-[120px] border-t border-white gap-20 flex">
           <a
             className="group relative pt-2"
-            href="http://"
+            href="http://www.uniswap.org"
             target="_blank"
             rel="noopener noreferrer">
             <div className="absolute transition-all ease-linear duration-75 group-hover:h-3 w-[6px] h-[6px] top-0 left-0 border-l border-white"></div>
