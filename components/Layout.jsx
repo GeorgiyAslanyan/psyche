@@ -13,7 +13,7 @@ const Layout = () => {
             <p className="text-center 2xl:text-2xl mt-4 md:mt-10 text-white">Psyche is supposed to have <br className='hidden md:block'/> <span className=' text-[#AEFEFF]'>limitless deposits of Ethereum</span> <br className='hidden md:block'/> in addition to metal</p>
         </div>
         <video autoPlay loop muted playsInline className='w-full object-cover absolute z-0 h-screen hidden md:flex'>
-            <source src="/fhd.mp4" type="video/mp4" />
+            <source src="/background.mp4" type="video/mp4" />
         </video>
         <video autoPlay loop playsInline muted className='w-full object-cover absolute z-0 h-screen flex md:hidden'>
         <source src="/mobile.mp4" type="video/mp4" />
