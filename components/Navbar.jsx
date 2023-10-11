@@ -11,11 +11,11 @@ const Navbar = () => {
         <div className="min-w-[120px] border-t border-white gap-20 flex">
            
           <a
-            className="group flex relative pt-2"
+            className="group flex relative pt-3"
             href="http://www.uniswap.org"
             target="_blank"
             rel="noopener noreferrer">
-            <div className="absolute transition-all ease-linear duration-75 group-hover:h-3 w-[6px] h-[6px] top-0 left-0 border-l border-white"></div>
+            <div className="absolute transition-all ease-linear duration-75 group-hover:h-[0.6rem] w-[5px] h-[5px] top-0 left-0 border-l border-white"></div>
             BUY/SELL {" "}<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-3 h-3">
   <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
 </svg>
