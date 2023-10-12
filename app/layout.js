@@ -1,7 +1,7 @@
 import './globals.css'
 import { Inter, IBM_Plex_Sans } from 'next/font/google'
 
-const ibm = IBM_Plex_Sans({ subsets: ['latin'], weight: "600" })
+const ibm = IBM_Plex_Sans({ weight: ['300', '400', '500', '600', '700'], subsets: ['latin'] })
 
 export const metadata = {
   title: 'Psyche',
