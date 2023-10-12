@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 
 const CountdownTimer = () => {
-    const deadline = new Date('2023-10-12T19:16:50').getTime();
+    const deadline = new Date('2023-10-13T19:19:00').getTime();
     const [timeRemaining, setTimeRemaining] = useState(deadline - new Date().getTime());
     
 

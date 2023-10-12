@@ -29,7 +29,7 @@ const Footer = () => {
           </a>
           <a
             className="group relative pt-3 flex  text-[#787878] hover:text-white"
-            href="https://www.youtube.com"
+            href="https://www.youtube.com/watch?v=y__vwRQ3PVg"
             target="_blank"
             rel="noopener noreferrer">
             <div className="absolute transition-all ease-linear duration-75  group-hover:h-[0.6rem] w-[5px] h-[5px] top-0 left-0 border-l border-[#787878]"></div>
@@ -54,7 +54,7 @@ const Footer = () => {
           <div className="flex gap-3">
           <a
             className="group relative pt-3 h-[16px] w-[16px]"
-            href="https://x.com"
+            href="https://twitter.com/PsycheEthereum"
             target="_blank"
             rel="noopener noreferrer">
             <div className="absolute transition-all ease-linear duration-75 group-hover:h-[0.6rem] w-[5px] h-[5px] top-0 left-0 border-l border-[#787878]"></div>
@@ -62,7 +62,7 @@ const Footer = () => {
           </a>
           <a
             className="group relative pt-3 h-[16px] w-[16px]"
-            href="https://web.telegram.org/"
+            href="https://t.me/MissionToPsyche"
             target="_blank"
             rel="noopener noreferrer">
             <div className="absolute transition-all ease-linear duration-75 group-hover:h-[0.6rem] w-[5px] h-[5px] top-0 left-0 border-l border-[#787878]"></div>
