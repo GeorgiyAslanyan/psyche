@@ -71,7 +71,7 @@ const Footer = () => {
           </div>
           <p className='pt-3 text-sm'>@ 2023 PSYCHE MISSION</p>
         </div>
-        <a href="http://" className='col-span-1 md:col-span-10 text-[#787878]' target="_blank" rel="noopener noreferrer">PSYCHE Smart Contract Address: 0x....</a>
+        <a href="http://" className='col-span-1 md:col-span-10 text-[#787878]' target="_blank" rel="noopener noreferrer">PSYCHE Smart Contract Address: 0xA5e1F63f8eB3d5A2c1a961cb4795a6159dB796f0</a>
       </div>
     </div>
   )

@@ -14,7 +14,7 @@ const Navbar = ({setOpen}) => {
            
           <a
             className="group flex relative pt-3"
-            href="http://www.uniswap.org"
+            href="https://app.uniswap.org/#/swap?outputCurrency=0xA5e1F63f8eB3d5A2c1a961cb4795a6159dB796f0&use=V2"
             target="_blank"
             rel="noopener noreferrer">
             <div className="absolute transition-all ease-linear duration-75 group-hover:h-[0.6rem] w-[5px] h-[5px] top-0 left-0 border-l border-white"></div>
