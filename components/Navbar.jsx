@@ -10,7 +10,7 @@ const Navbar = ({setOpen}) => {
             <img src="/nasa.svg" alt="logo" className="h-8" />
             <img src="/psyche.png" alt="logo" className="h-8" />
         </div>
-        <div className="min-w-[120px] border-t border-white gap-20 flex">
+        <div className="min-w-[120px] border-t border-white gap-5 flex">
            
           <a
             className="group flex relative pt-3"
