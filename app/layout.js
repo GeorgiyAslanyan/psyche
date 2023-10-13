@@ -5,7 +5,7 @@ const ibm = IBM_Plex_Sans({ weight: ['300', '400', '500', '600', '700'], subsets
 const roboto = Roboto_Mono({ weight: ['300', '400', '500', '600', '700'], subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Psyche',
+  title: 'PSYCHE | ETHEREUM',
   description: 'Psyche is supposed to have limited depoist of Etherium in addition to metal',
 }
 
