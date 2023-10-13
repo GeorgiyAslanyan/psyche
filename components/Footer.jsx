@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="col-span-1 md:col-span-7 border-t border-[#787878] gap-3 md:gap-20 flex ">
           <a
             className="group relative pt-3 flex  text-[#787878] hover:text-white"
-            href="https://www.dextools.io"
+            href="https://www.dextools.io/app/en/ether/pair-explorer/0x26872a866942e4570a9c32de516b933bc59d2d82"
             target="_blank"
             rel="noopener noreferrer">
             <div className="absolute transition-all ease-linear duration-75  group-hover:h-[0.6rem] w-[5px] h-[5px] top-0 left-0 border-l border-[#787878]"></div>
@@ -18,7 +18,7 @@ const Footer = () => {
           </a>
           <a
             className="group relative pt-3 flex  text-[#787878] hover:text-white"
-            href="https://www.etherscan.io"
+            href="https://etherscan.io/token/0xa5e1f63f8eb3d5a2c1a961cb4795a6159db796f0#code"
             target="_blank"
             rel="noopener noreferrer">
             <div className="absolute transition-all ease-linear duration-75  group-hover:h-[0.6rem] w-[5px] h-[5px] top-0 left-0 border-l border-[#787878]"></div>
