@@ -1,7 +1,8 @@
 import './globals.css'
-import { Inter, IBM_Plex_Sans } from 'next/font/google'
+import { Inter, IBM_Plex_Sans, Roboto_Mono } from 'next/font/google'
 
 const ibm = IBM_Plex_Sans({ weight: ['300', '400', '500', '600', '700'], subsets: ['latin'] })
+const roboto = Roboto_Mono({ weight: ['300', '400', '500', '600', '700'], subsets: ['latin'] })
 
 export const metadata = {
   title: 'Psyche',
@@ -11,7 +12,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={ibm.className}>{children}</body>
+      <body >{children}</body>
     </html>
   )
 }

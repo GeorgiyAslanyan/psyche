@@ -1,6 +1,8 @@
+'use client'
 import React from "react";
+import Modal from "./Modal";
 
-const Navbar = () => {
+const Navbar = ({setOpen}) => {
   return (
     <div className="z-10 py-5 w-full bg-gradient-to-b from-black via-black to-[#0000001c] absolute flex justify-center top-0">
       <div className="flex gap-x-7 justify-between w-4/5 text-xs">
@@ -21,6 +23,12 @@ const Navbar = () => {
 </svg>
 
           </a>
+          <button
+            className="group flex relative pt-3"
+            onClick={() => setOpen(true)}>
+            <div className="absolute transition-all ease-linear duration-75 group-hover:h-[0.6rem] w-[5px] h-[5px] top-0 left-0 border-l border-white"></div>
+            Tokenomics
+          </button>
         </div>
       </div>
     </div>

@@ -43,13 +43,13 @@ const CountdownTimer = () => {
   return (
     <div>
       <div className='grid justify-items-center items-center grid-cols-7 gap-y-1 md:gap-y-2'>
-        <div className="text-2xl md:text-4xl">{days}</div>
+        <div className="text-2xl md:text-4xl font-extralight">{days}</div>
         <p className='text-[#787878]'>/</p>
-        <div className="text-2xl md:text-4xl">{hours}</div>
+        <div className="text-2xl md:text-4xl font-extralight">{hours}</div>
         <p className='text-[#787878]'>/</p>
-        <div className="text-2xl md:text-4xl">{minutes}</div>
+        <div className="text-2xl md:text-4xl font-extralight">{minutes}</div>
         <p className='text-[#787878]'>/</p>
-        <div className="text-2xl md:text-4xl">{seconds}</div>
+        <div className="text-2xl md:text-4xl font-extralight">{seconds}</div>
         <div className="text-xs md:text-sm">DAYS</div>
         <div></div>
         <div className="text-xs md:text-sm">HOURS</div>
